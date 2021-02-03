@@ -6,7 +6,7 @@ app = flask.Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def home():
-    return "Api de Conversão em Python-v2"
+    return "Api de Conversão em Python-v3"
 
 
 @app.route('/celsius/<int:temperatura>/fahrenheit', methods=['GET'])
